@@ -1,0 +1,132 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.all{
+   
+    height: 100%;
+   
+}
+h1{
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.text{
+    margin-top: -10px;
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.twobox{
+    display: flex;
+}
+.box1,.box2{
+    display: flex;
+
+   
+}
+.minibox{
+    height: 500px;
+    width: 300px;
+    border: 1px solid rgb(179, 179, 179);
+    margin-right: 20px;
+    margin-top: 35px;
+    position: relative;
+}
+.textinBox{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-bottom:10px ;
+    border-bottom: 1px solid rgb(179, 179, 179);
+
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.sotka{
+    color: #F7941D;
+    padding: 0 5px 0 5px;
+}
+.goldtext{
+    color: #5e5e5e;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    padding-bottom:17px ;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+.textbot{
+    color: #5e5e5e;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding: 8px;
+    margin: 5px;
+}
+.threetexts{
+    margin-top: 50px;
+}
+.knopka{
+    display: flex;
+    justify-content: center;
+
+}
+b{
+    padding: 5px;
+}
+.button{
+  
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    border-radius: 30px;
+    color: white;
+    background-color: #29C2E1;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.button:hover{
+    transition: 0.3s;
+    background-color: #24aac5;
+}
+.img{
+    position: absolute;
+    top: 0;
+}
+@media screen and (max-width: 1279px) {
+    .twobox{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .box1{
+        display: block;
+    }
+    .box2{
+        display: block;
+    }
+}
+
+    
