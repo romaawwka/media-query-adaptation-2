@@ -8,32 +8,28 @@ body{
     justify-content: center;
 }
 .all{
-   
     height: 100%;
-   
 }
 h1{
     font-family: 'Fredoka', sans-serif;
-font-family: 'Hammersmith One', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .text{
     margin-top: -10px;
     font-family: 'Fredoka', sans-serif;
-font-family: 'Hammersmith One', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .twobox{
     display: flex;
 }
 .box1,.box2{
     display: flex;
-
-   
 }
 .minibox{
     height: 500px;
@@ -42,6 +38,11 @@ font-family: 'Raleway', sans-serif;
     margin-right: 20px;
     margin-top: 35px;
     position: relative;
+    transition: 0.3s;
+}
+.minibox:hover{
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
 }
 .textinBox{
     font-size: 22px;
@@ -50,12 +51,11 @@ font-family: 'Raleway', sans-serif;
     margin-top: 35px;
     padding-bottom:10px ;
     border-bottom: 1px solid rgb(179, 179, 179);
-
     font-family: 'Fredoka', sans-serif;
-font-family: 'Hammersmith One', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .sotka{
     color: #F7941D;
@@ -84,13 +84,11 @@ font-family: 'Raleway', sans-serif;
 .knopka{
     display: flex;
     justify-content: center;
-
 }
 b{
     padding: 5px;
 }
 .button{
-  
     width: 40%;
     display: flex;
     justify-content: center;
@@ -102,10 +100,10 @@ b{
     cursor: pointer;
     transition: 0.3s;
     font-family: 'Fredoka', sans-serif;
-font-family: 'Hammersmith One', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .button:hover{
     transition: 0.3s;
